@@ -33,7 +33,7 @@ namespace IntroductionToProgramming
             char singleCharacter = 'A';        // Character
             string text = "Hello, C#";         // String
             bool isProgrammingFun = true;      // Boolean (true/false)
-
+           
             // Print variable values
             Console.WriteLine($"Integer: {integer}");
             Console.WriteLine($"Double: {floatingPoint}");
@@ -67,6 +67,7 @@ namespace IntroductionToProgramming
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.WriteLine($"Hello, {name}!");
+
         }
 
         // 4. Simple Method Example: Adding two numbers

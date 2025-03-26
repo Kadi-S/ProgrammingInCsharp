@@ -7,8 +7,8 @@ namespace IntroductionToProgramming//ProgrammingInCSharp
         static void Main(string[] args)
         {
             // Introduction to Programming
-            Console.WriteLine("Running Introduction to Programming (Basic Syntax)...");
-            IntroductionToProgramming.BasicSyntax.RunExample();
+            //Console.WriteLine("Running Introduction to Programming (Basic Syntax)...");
+            //IntroductionToProgramming.BasicSyntax.RunExample();
             // IntroductionToProgramming.VariablesAndDataTypes.RunExample();
             // IntroductionToProgramming.ControlStructures.RunExample();
             
@@ -42,14 +42,14 @@ namespace IntroductionToProgramming//ProgrammingInCSharp
             // Algorithms.DynamicProgramming.KnapsackProblem.RunExample();
 
             // Object-Oriented Programming (OOP)
-            // Console.WriteLine("Running Object-Oriented Programming Examples...");
-            // OOPs.ClassesAndObjects.ClassesAndObjectsExample.RunExample();
+            Console.WriteLine("Running Object-Oriented Programming Examples...");
+            OOPs.ClassesAndObjects.ClassesAndObjectsExample.RunExample();
             // OOPs.Inheritance.InheritanceExample.RunExample();
             // OOPs.Polymorphism.PolymorphismExample.RunExample();
             // OOPs.Interfaces.InterfacesExample.RunExample();
 
             // Program execution completed
-            Console.WriteLine("\nProgram execution completed.");
+           // Console.WriteLine("\nProgram execution completed.");
         }
     }
 }
